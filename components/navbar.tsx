@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 import MainNav from "@/components/main-nav";
 import Container from "@/components/ui/container";
