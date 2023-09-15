@@ -6,13 +6,13 @@ import { Dialog } from "@headlessui/react";
 
 import IconButton  from "@/components/ui/icon-button";
 import Button from "@/components/ui/button";
-import { Flavor, Size } from "@/types";
+import { Color, Size } from "@/types";
 
 import Filter from "./filter";
 
 interface MobileFiltersProps {
   sizes: Size[],
-  colors: Flavor[],
+  colors: Color[],
 }
 
 const MobileFilters: React.FC<MobileFiltersProps> = ({
@@ -56,7 +56,7 @@ const MobileFilters: React.FC<MobileFiltersProps> = ({
               />
               <Filter 
                 valueKey="colorId" 
-                name="Flavor" 
+                name="Colors" 
                 data={colors}
               />
             </div>
