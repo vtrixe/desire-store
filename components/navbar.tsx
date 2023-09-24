@@ -24,7 +24,7 @@ const Navbar = async () => {
       
           </Link>
           <div className="flex-grow">
-            <Search />
+  
           </div>
           <MainNav data={categories} />
           <NavbarActions />
