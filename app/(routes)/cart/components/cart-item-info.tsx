@@ -14,7 +14,7 @@ const CartItemInfo: React.FC<CartItemInfoProps> = ({
       </div>
 
       <div className="mt-1 flex text-sm">
-        <p className="text-gray-500">{product.color}</p>
+        <p className="text-gray-500">{product.Color}</p>
         <p className="ml-4 border-l border-gray-200 pl-4 text-gray-500">{product.size}</p>
       </div>
       <p className="mt-1 text-sm font-medium text-gray-900">{product.price}</p>
