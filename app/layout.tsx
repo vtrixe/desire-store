@@ -10,8 +10,8 @@ import './globals.css'
 const font = Urbanist({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Store',
-  description: 'Store - The place for all your purchases.',
+  title: 'Desire Supplements - Whey Protein, Whey Muscle Gainer, Whey Protein Gaine',
+  description: 'description" content=""Desire Supplements-Best in Class and quality Nutriton Supplements such as whey protein',
 }
 
 export default function RootLayout({
@@ -21,6 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      
       <body className={font.className}>
         <ToastProvider />
         <ModalProvider />
